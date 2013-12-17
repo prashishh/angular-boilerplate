@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en" ng-app="testingApp">
+    <head>
+        <meta charset="utf-8">
+        <title>Polling App</title>    
+      <!--  <link rel="stylesheet" href="css/style.css"> -->
+    </head>
+    <body ng-controller="BaseController">
+        {{testing}}
+        
+        <ng-view></ng-view>
+    </body>    
+
+    <script src="lib/angular.min.js" type="text/javascript"></script>
+    
+    <script src="js/app.js" type="text/javascript"></script>
+    <script src="js/base/baseController.js" type="text/javascript"></script>
+    <script src="js/base/baseModel.js" type="text/javascript"></script>
+    <script src="js/base/baseService.js" type="text/javascript"></script>
+    <script src="js/base/baseFilter.js" type="text/javascript"></script>
+    
+    <script src="js/page1/page1Controller.js" type="text/javascript"></script>
+   
+    <script src="js/page2/page2Controller.js" type="text/javascript"></script>
+</html>
